@@ -24,7 +24,7 @@ Tools:
 
 You can enter through the link below.
 
-[Ver site](https://ericodesenvolvedor.github.io/novo-social-links/)
+[Ver site](https://ericodesenvolvedor.github.io/phrase-generator/)
 
 <!-- CONTACT -->
 ## 📫 Contact
