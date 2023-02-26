@@ -1,8 +1,5 @@
-const category = document.querySelector("#category").value;
-const BASE_URL = `https://api.quotable.io/quotes?tags=${category}`;
-
-const getData = async () => {
-    const response = await fetch(BASE_URL);
+const getData = async (url) => {
+    const response = await fetch(url);
     const data = response.json();
     const phrases = await data;
     handleResult(phrases);
@@ -30,7 +27,9 @@ const showContent = (content) => {
 
 const generate = (event) => {
     event.preventDefault();
-    getData();
+    const category = document.querySelector("#category").value;
+    const BASE_URL = `https://api.quotable.io/quotes?tags=${category}`;
+    getData(BASE_URL);
 }
 
 const clear = (event) => {
