@@ -61,6 +61,10 @@ main {
 	color: red;
 }
 
+.btn-clear.btn:hover {
+	background-color: transparent;
+}
+
 .result {
 	margin-top: 20px;
 	padding: 20px;
